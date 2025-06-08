@@ -18,7 +18,7 @@ spec:
         app: gogs
     spec:
       containers:
-      - image: docker.io/gogs/gogs
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/gogs-gogs:latest  #docker.io/gogs/gogs
         name: gogs
         env:
         - name: DB_TYPE
