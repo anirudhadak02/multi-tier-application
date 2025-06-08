@@ -18,7 +18,7 @@ spec:
         app: wp
     spec:
       containers:
-      - image: docker.io/wordpress
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/wordpress:latest   #docker.io/wordpress
         name: wordpress
         env: 
         - name: WORDPRESS_DB_HOST
