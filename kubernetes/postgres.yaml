@@ -18,7 +18,7 @@ spec:
         app: postgres
     spec:
       containers:
-      - image: centos/postgresql-96-centos7
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/centos-postgresql-96-centos7:latest  #centos/postgresql-96-centos7
         name: postgresql-96-centos7
         env:
          - name: POSTGRESQL_ADMIN_PASSWORD
