@@ -18,7 +18,7 @@ spec:
         app: mydb
     spec:
       containers:
-      - image: docker.io/mysql:5.6
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/mysql:5.6   #docker.io/mysql:5.6
         name: mysql
         env:
            - name: MYSQL_ROOT_PASSWORD
